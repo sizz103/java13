@@ -1,7 +1,7 @@
 package iducs.java.b;
 
 public abstract class Mammal implements Animals {
-	abstract public void move();
+	public abstract void move();
 	
 	@Override
 	public void eat() {
@@ -9,7 +9,7 @@ public abstract class Mammal implements Animals {
 
 	}
 
-	abstract public void sound();
+	public abstract void sound();
 	
 	@Override
 	public void breathe() {
