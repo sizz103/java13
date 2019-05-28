@@ -10,6 +10,12 @@ public class AnimalsTest {
 	}
 	
 	public static void main(String[] args) {
+		String str1 = "인덕대학교";
+		String str2 = "인퓨터소프트웨어학과";
+		
+		// Comparable Inerface에 정의된 메소드(공용 추상)
+		System.out.println(str1.compareTo(str2));
+		
 		Animals human = new Human();
 		enable(human);
 		//human.breathe();
